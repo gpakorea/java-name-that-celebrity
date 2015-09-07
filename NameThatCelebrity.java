@@ -18,6 +18,32 @@ public class NameThatCelebrity {
     System.out.println( s4 + " >>> " + s4.substring(2,(s4.length() - 3)) );
     System.out.println( s5 + " >>> " + s5.substring(2,(s5.length() - 3)) );
     
+    int h = 103;
+    int p = 5; 
+    System.out.println(++h + p); 
+    System.out.println(h);
+    
+    int j = 0;
+    j++;
+    ++j;
+    j += 1;
+    j = j + 1;
+    
+    
+   double def;
+   double f = 1992.37; 
+   def = f; 
+   System.out.println(def);
+   
+   int zulu = 3;
+   System.out.println( zulu-- );
+   System.out.println( zulu );
+   
+   int a = 100;
+   int b = 200; 
+   b/=a; 
+   System.out.println(b + 1);
+    
   } // end main method
   
 } // end class
